@@ -72,17 +72,7 @@ You check the existing tables by
 You can see the detailed information of a table, for example ``students``, by
 
 	describe students;
-````
-+-------+---------------------+------+-----+---------+----------------+
-| Field    | Type                        | Null   | Key  | Default  | Extra               |
-+-------+---------------------+------+-----+---------+----------------+
-| id         | int(10) unsigned    | NO   | PRI    | NULL     | auto_increment |
-| name   | char(8)                   | NO   |           | NULL    |                         |
-| sex       | char(4)                   | NO   |           | NULL    |                         |
-| age      | tinyint(3) unsigned | NO  |           | NULL    |                         |
-| tel        | char(13)                  | YES  |           | -           |                         |
-+-------+---------------------+------+-----+---------+----------------+
-````
+
 
 ## How to Manipulate Data
 
@@ -175,4 +165,6 @@ Rename students as workmates.
 
 I hope this is useful.
 
-reference: [MySQL 21 minutes](http://wiki.jikexueyuan.com/project/mysql-21-minutes/)
+---
+
+Reference: [MySQL 21 minutes](http://wiki.jikexueyuan.com/project/mysql-21-minutes/)
