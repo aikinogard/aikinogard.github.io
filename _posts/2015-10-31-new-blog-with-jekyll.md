@@ -6,7 +6,7 @@ tags: [jekyll]
 
 It is fun to start a new blog.
 
-I am new to jekyll.
+I am new to jekyll. This site is first made by default template from Jekyll Bootstrap.
 
 ###Create a new post
 
