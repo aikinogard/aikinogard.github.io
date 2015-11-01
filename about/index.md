@@ -4,15 +4,21 @@ layout: page
 comments: no
 ---
 
-Physics, Machine Learning, Aikido, Food and Life.
+#Aikidoka who does not know machine learning is not a good physicist.
 
-Aikidoka who does not know machine learning is not a good physicist.
+Li Li
+
+* A Physics PhD candidate working on machine learning at University of California, Irvine.
+
+* A Sandan (third degree black belt) Aikido teacher.
+
+* A gastronome
 
 ----
 
 ###Contact：        
 
-个人邮箱: [aiki.nogard@gmail.com](mailto:aiki.nogard@gmail.com)     
+Email: [aiki.nogard@gmail.com](mailto:aiki.nogard@gmail.com)     
 
 
 ----
