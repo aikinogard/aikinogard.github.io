@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "New Blog"
+---
+
+It is fun to start a blog.
+
+{% highlight python %}
+print "Hello World!"
+{% endhighlight %}
