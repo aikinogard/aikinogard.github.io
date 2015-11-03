@@ -13,7 +13,7 @@ Try them out:
 
 ### Fractal Tree
 
-{% highlight python %}
+{% highlight python linenos %}
 
 import turtle
 
@@ -44,7 +44,7 @@ main()
 
 ### Sierpinski Triangle
 
-{% highlight python %}
+{% highlight python linenos %}
 
 import turtle
 
