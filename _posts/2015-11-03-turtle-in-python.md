@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "turtle in python"
+title: "turtle in Python"
 description: ""
 category: coding
 tags: [python]
