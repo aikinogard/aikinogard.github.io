@@ -22,7 +22,6 @@ Li Li
   {% endfor %}
 </ul>
 
-{{ post.content }}
 
 
 
