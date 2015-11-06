@@ -22,6 +22,7 @@ Li Li
   {% endfor %}
 </ul>
 
+{{ post.content }}
 
 <div class="post-content-truncate">
   {% if post.content contains "<!-- more -->" %}
