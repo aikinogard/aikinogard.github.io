@@ -16,17 +16,12 @@ Li Li
 
 ## Recent Posts
 
-	<ul class="posts">
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 
 
 
-{ % if post.content contains "<!-- more -->" %}
-{ { post.content | split:"<!-- more -->" | first % }}
-<h4><a href='{ {post.url}}' title='Read more...'>Read more...</a></h4>
-{ % else %}
-{ { post.content}}
-{ % endif %}
+
