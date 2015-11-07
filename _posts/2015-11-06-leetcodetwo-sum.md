@@ -33,7 +33,6 @@ class Solution(object):
                 return [buff_dict[num], i + 1]
             else:
                 buff_dict[target - num] = i + 1
-
 {% endhighlight %}
 
 The basic idea is to record the index of the "partner" of the encounter number into a python dictionary. Because python ``dict`` use hash table, the complexity of search in ``dict`` is \\(O(1) \\). So the overall complexity (consider the ``for`` loop) is \\(O(n) \\) instead of \\(O(n^2) \\).
