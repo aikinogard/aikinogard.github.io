@@ -71,7 +71,7 @@ It is good to understand what happened above. But for quick application of min h
 
 You can get start from:
 
-* ```heapq.heapify(x)``` create a heap from list ```x```.
+* ```heapq.heapify(x)``` create a heap from list ```x``` in place. ```x``` becomes a min heap.
 * ```heapq.headpush(heap, item)``` push ```item``` into ```heap```.
 * ```heapq.headpop(heap, item)``` pop ```item``` out from ```heap```.
 
