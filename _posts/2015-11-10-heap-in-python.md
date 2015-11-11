@@ -9,6 +9,8 @@ tags: [python, algorithm]
 
 Heap is a data structure which is usually used to implement a priority queue, allowing us both enqueue and dequeue items in \\(O(\log n) \\).
 
+## Educative Approach
+
 This can be easily implemented in python.
 
 You can find it at [Binary Heap Implementation](http://interactivepython.org/runestone/static/pythonds/Trees/BinaryHeapImplementation.html)
@@ -67,13 +69,15 @@ class BinHeap:
         	i = i - 1 		  		
 {% endhighlight%}
 
+## Quick Approach
+
 It is good to understand what happened above. But for quick application of min heap, python already provides a build-in module ```heapq```. see [here](https://docs.python.org/2/library/heapq.html).
 
 You can get start from:
 
 * ```heapq.heapify(x)``` create a heap from list ```x``` in place. ```x``` becomes a min heap.
-* ```heapq.headpush(heap, item)``` push ```item``` into ```heap```.
-* ```heapq.headpop(heap, item)``` pop ```item``` out from ```heap```.
+* ```heapq.heappush(heap, item)``` push ```item``` into ```heap```.
+* ```heapq.heappop(heap, item)``` pop ```item``` out from ```heap```.
 
 
 
